@@ -1,0 +1,25 @@
+@media (min-width: 450px) {
+  .stores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card {
+    width: 30%;
+  }
+}
+
+.card {
+  margin: 0.5em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
